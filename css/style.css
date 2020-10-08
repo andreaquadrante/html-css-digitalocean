@@ -161,6 +161,38 @@ body {
   padding: 30px 0;
 }
 
+#design {
+  background-color: #f3f5f9;
+  padding: 30px 0;
+}
+#design .design-copy h3 {
+  color: #031c4e;
+  font-weight: 700;
+}
+#design .design-copy p {
+  color: #5c6a88;
+}
+#design .design-slider {
+  padding: 50px 0;
+}
+#design .design-slider > img {
+  width: 50%;
+}
+#design h6 {
+  color: #031c4e;
+  font-weight: 400;
+}
+#design .slider-bullet {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid #006aff;
+}
+#design .slider-bullet.active {
+  background-color: #006aff;
+}
+
 @media screen and (min-width: 992px) {
   #hero .hero-copy h1 {
     font-size: 4.5rem;
@@ -173,6 +205,13 @@ body {
     font-size: 3rem;
   }
   #deploy .deploy-copy p {
+    font-size: 1.7rem;
+  }
+
+  #design .design-copy h3 {
+    font-size: 3rem;
+  }
+  #design .design-copy p {
     font-size: 1.7rem;
   }
 }

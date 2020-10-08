@@ -178,6 +178,19 @@ body {
 #design .design-slider > img {
   width: 50%;
 }
+#design .design-slider > img:hover {
+  cursor: zoom-in;
+}
+#design .design-slider .glyphicon-chevron-left,
+#design .design-slider .glyphicon-chevron-right {
+  color: #6f7b97;
+  font-size: 3.5rem;
+}
+#design .design-slider .glyphicon-chevron-left:hover,
+#design .design-slider .glyphicon-chevron-right:hover {
+  color: #031c4e;
+  cursor: pointer;
+}
 #design h6 {
   color: #031c4e;
   font-weight: 400;
@@ -189,7 +202,7 @@ body {
   border-radius: 50%;
   border: 1px solid #006aff;
 }
-#design .slider-bullet.active {
+#design .slider-bullet.active-bullet {
   background-color: #006aff;
 }
 

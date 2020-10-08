@@ -63,7 +63,6 @@ body {
 }
 #hero .log-in-copy h4 {
   color: #031c4e;
-  text-align: center;
   font-weight: 700;
   margin-top: 0px;
 }
@@ -121,11 +120,59 @@ body {
  vertical-align: middle;
 }
 
+#deploy {
+  background-color: #fff;
+  padding: 30px 0;
+}
+#deploy .deploy-copy h3 {
+  color: #031c4e;
+  font-weight: 700;
+}
+#deploy .deploy-copy p {
+  color: #5c6a88;
+}
+#deploy nav ul li {
+  list-style-type: none;
+  color: #75809a;
+  border-left: 1px solid #75809a;
+  padding-left: 10px;
+}
+#deploy nav ul li:not(:last-child) {
+  padding-bottom: 10px;
+}
+#deploy nav {
+  margin-bottom: 15px;
+}
+#deploy img {
+  height: 3.3rem;
+}
+#deploy h5 {
+  color: #031c4e;
+  font-weight: 700;
+}
+#deploy p {
+  color: #75809a;
+  font-size: 1.2rem;
+}
+#deploy .deploy-item.col-sm-5 {
+  height: 15rem;
+}
+#deploy .deploy-features {
+  padding: 30px 0;
+}
+
 @media screen and (min-width: 992px) {
   #hero .hero-copy h1 {
     font-size: 4.5rem;
   }
   #hero .hero-copy p {
     font-size: 2rem;
+  }
+
+  #deploy .deploy-copy h3 {
+    font-size: 3rem;
+  }
+  #deploy .deploy-copy p {
+    font-size: 1.7rem;
   }
 }

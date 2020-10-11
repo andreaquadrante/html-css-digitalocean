@@ -314,6 +314,38 @@ body {
   background-color: #fff;
 }
 
+#footer {
+  background-color: #031c4e;
+  padding: 50px;
+}
+#footer img {
+  width: 4rem;
+  margin-bottom: 5px;
+}
+#footer .footer-copy div {
+  color: #8b94a9;
+}
+#footer .footer-copy div:nth-child(3) {
+  color: #5a6887;
+  margin-bottom: 10px;
+}
+#footer .footer-copy nav ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+#footer .ext-links h4 {
+  color: #fff;
+  margin: 0;
+  margin-bottom: 5px;
+}
+#footer .ext-links nav ul li {
+  color: #a6adbd;
+  margin-bottom: 5px;
+}
+#footer [class*="col-"] {
+  margin-bottom: 15px;
+}
+
 @media screen and (min-width: 992px) {
   h1 {
     font-size: 4.5rem;

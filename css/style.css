@@ -195,14 +195,14 @@ body {
   color: #031c4e;
   font-weight: 400;
 }
-#design .slider-bullet {
+.slider-bullet {
   display: inline-block;
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
   border: 1px solid #006aff;
 }
-#design .slider-bullet.active-bullet {
+.slider-bullet.active-bullet {
   background-color: #006aff;
 }
 
@@ -262,34 +262,71 @@ body {
   border-bottom: 1px solid #fff;
 }
 
+#reviews {
+  background-color: #f3f5f9;
+  padding: 30px 0;
+}
+#reviews h3 {
+  color: #031c4e;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+#reviews .reviews-slider {
+  background-color: #fff;
+  padding: 30px 0;
+  margin-bottom: 30px
+}
+#reviews .reviews-slider > img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+#reviews .reviews-slider > p {
+  color: #5c6a88;
+  font-size: 1.8rem;
+}
+#reviews .reviews-slider > h6 {
+  color: #031c4e;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 5px;
+}
+#reviews .reviews-slider > h6:nth-child(4){
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+#reviews .reviews-slider > a {
+  font-size: 1.2rem;
+}
+
+#call-to-action {
+  background-color: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,72,197,1) 100%);
+  padding: 50px 0;
+}
+#call-to-action h3 {
+  color: #fff;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 30px;
+}
+#call-to-action button {
+  color: #006aff;
+  background-color: #fff;
+}
+
 @media screen and (min-width: 992px) {
-  #hero .hero-copy h1 {
+  h1 {
     font-size: 4.5rem;
   }
-  #hero .hero-copy p {
+  p {
     font-size: 2rem;
   }
-
-  #deploy .deploy-copy h3 {
+  h3 {
     font-size: 3rem;
   }
+
   #deploy .deploy-copy p {
     font-size: 1.7rem;
-  }
-
-  #design .design-copy h3 {
-    font-size: 3rem;
-  }
-  #design .design-copy p {
-    font-size: 1.7rem;
-  }
-
-  #features .features-copy h3 {
-    font-size: 3rem;
-  }
-
-  #regions h3 {
-    font-size: 3rem;
   }
 }
 
